@@ -1964,7 +1964,7 @@ unsigned char* GreyscaleLuminanceSource::getMatrix() {
   }
     
   for (int i = 0; i < size; i++) {
-     result[i] = static_cast<unsigned char>(255 - result[i]);;
+     result[i] = static_cast<unsigned char>(255 - result[i]);
   }
   return result;
 }
